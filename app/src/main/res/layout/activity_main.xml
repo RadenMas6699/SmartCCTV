@@ -29,7 +29,7 @@
 
                 <ImageView
                     android:id="@+id/imgBack"
-                    android:layout_width="32dp"
+                    android:layout_width="42dp"
                     android:layout_height="match_parent"
                     android:layout_centerVertical="true"
                     android:src="@drawable/ic_cctv_color" />
@@ -50,9 +50,24 @@
         <ImageView
             android:id="@+id/imgCapture"
             android:layout_width="match_parent"
-            android:layout_height="240dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/img_capturee" />
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgAnu"/>
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="WebViewLayout" />
+
+        <TextView
+            android:id="@+id/tvBase64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnCapture"

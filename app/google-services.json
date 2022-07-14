@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "617490561839",
+    "firebase_url": "https://smart-cctv-esp32-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smart-cctv-esp32",
+    "storage_bucket": "smart-cctv-esp32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617490561839:android:48dbfad07cc1cfa2633fda",
+        "android_client_info": {
+          "package_name": "com.radenmas.smart_cctv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617490561839-lp6i3hdtlpsoq0napn2m4saaukmv73ql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJOFUJ8waYyqprvGehkBJLsxNuQzQDnpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617490561839-lp6i3hdtlpsoq0napn2m4saaukmv73ql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
