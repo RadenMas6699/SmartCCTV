@@ -6,4 +6,6 @@
 <resources>
     <string name="app_name">Smart CCTV</string>
     <string name="app_version">Versi %1$s</string>
+    <string name="capture">Capture</string>
+    <string name="streaming">Streaming</string>
 </resources>

@@ -17,5 +17,17 @@ class StreamingActivity : AppCompatActivity() {
         b = ActivityStreamingBinding.inflate(layoutInflater)
         setContentView(b.root)
 
+        initView()
+        onClick()
+    }
+
+    private fun onClick() {
+        b.imgBack.setOnClickListener {
+            onBackPressed()
+        }
+    }
+
+    private fun initView() {
+
     }
 }

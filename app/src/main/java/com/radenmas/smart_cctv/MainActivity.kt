@@ -5,6 +5,7 @@
 
 package com.radenmas.smart_cctv
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.radenmas.smart_cctv.databinding.ActivityMainBinding
@@ -16,6 +17,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         b = ActivityMainBinding.inflate(layoutInflater)
         setContentView(b.root)
+
+        initView()
+        onClick()
+    }
+
+    private fun onClick() {
+        b.btnCapture.setOnClickListener {
+
+        }
+
+        b.btnStreaming.setOnClickListener {
+            startActivity(Intent(this, StreamingActivity::class.java))
+        }
+    }
+
+    private fun initView() {
 
     }
 }
