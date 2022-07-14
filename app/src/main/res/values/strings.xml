@@ -1,0 +1,9 @@
+<!--
+  ~ Created by RadenMas on 14/7/2022.
+  ~ Copyright (c) 2022.
+  -->
+
+<resources>
+    <string name="app_name">Smart CCTV</string>
+    <string name="app_version">Versi %1$s</string>
+</resources>
