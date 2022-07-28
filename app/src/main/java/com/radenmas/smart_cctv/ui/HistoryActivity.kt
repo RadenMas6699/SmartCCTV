@@ -65,15 +65,6 @@ class HistoryActivity : AppCompatActivity() {
                 i: Int,
                 dataHistory: History
             ) {
-//                val urlImage = dataHistory.image.toString()
-//                val cleanImg = urlImage.replace("data:image/jpeg;base64,", "");
-//                val image = cleanImg.replace("%2F", "/")
-//
-//                val imageBytes = Base64.decode(urlImage, Base64.DEFAULT)
-//                val decodedImage = BitmapFactory.decodeByteArray(imageBytes, 0, imageBytes.size)
-//                holder.image.setImageBitmap(decodedImage)
-
-
                 holder.image.loadUrl(dataHistory.image.toString())
                 val timestamp = dataHistory.timestamp.toString().toLong()
                 val time = timestamp * 1000
