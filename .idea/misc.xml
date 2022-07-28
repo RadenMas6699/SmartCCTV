@@ -3,13 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/drawable/bg_dialog.xml" value="0.2475" />
         <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/drawable/bg_gradient.xml" value="0.2475" />
         <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/drawable/ic_arrow_left.xml" value="0.2475" />
         <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2475" />
         <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2475" />
+        <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/layout/activity_encode.xml" value="0.2911458333333333" />
+        <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/layout/activity_history.xml" value="0.2911458333333333" />
         <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/layout/activity_main.xml" value="0.2879999900124293" />
         <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/layout/activity_splash.xml" value="0.2911458333333333" />
         <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/layout/activity_streaming.xml" value="0.2911458333333333" />
+        <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/layout/dialog_input_ip.xml" value="0.29010416666666666" />
+        <entry key="..\:/AndroidStudioProjects/SmartCCTV/app/src/main/res/layout/list_history.xml" value="0.1" />
       </map>
     </option>
   </component>

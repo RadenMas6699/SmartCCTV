@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".StreamingActivity">
+    tools:context=".ui.HistoryActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBar"
@@ -36,16 +36,15 @@
                 android:layout_marginStart="16dp"
                 android:layout_toEndOf="@id/imgBack"
                 android:fontFamily="@font/roboto_medium"
-                android:text="@string/streaming"
+                android:text="@string/history"
                 android:textColor="@color/primary_text"
                 android:textSize="18sp" />
         </RelativeLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <ImageView
-        android:id="@+id/imgCapture"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistory"
         android:layout_width="match_parent"
-        android:layout_height="240dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/img_streaming" />
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list_history" />
 </LinearLayout>

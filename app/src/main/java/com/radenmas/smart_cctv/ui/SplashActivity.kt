@@ -1,15 +1,16 @@
 /*
- * Created by RadenMas on 14/7/2022.
+ * Created by RadenMas on 25/7/2022.
  * Copyright (c) 2022.
  */
 
-package com.radenmas.smart_cctv
+package com.radenmas.smart_cctv.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import com.radenmas.smart_cctv.R
 import com.radenmas.smart_cctv.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
