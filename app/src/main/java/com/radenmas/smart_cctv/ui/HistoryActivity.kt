@@ -21,7 +21,6 @@ import com.radenmas.smart_cctv.databinding.ActivityHistoryBinding
 import java.text.SimpleDateFormat
 import java.util.*
 
-
 class HistoryActivity : AppCompatActivity() {
     private lateinit var b: ActivityHistoryBinding
 
